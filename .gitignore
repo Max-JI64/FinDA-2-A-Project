@@ -1,1 +1,72 @@
-data/
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+__pypackages__/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore every data directory entry except the root data/processed directory
+**/data/*
+!/data/processed/
+!/data/processed/**
+
+# Jupyter and analysis-tool caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*~
+
+# Editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model and experiment artifacts
+models/
+artifacts/
+mlruns/
+wandb/
+catboost_info/
+lightning_logs/
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.h5
+*.hdf5
