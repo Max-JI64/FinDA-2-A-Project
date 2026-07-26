@@ -1,5 +1,7 @@
 ## 주제
 
+https://www.kaggle.com/competitions/home-credit-default-risk/overview
+
 승인 가능한 조건을 찾아주는 대출 심사 보조 시스템
 
 ### 배경
