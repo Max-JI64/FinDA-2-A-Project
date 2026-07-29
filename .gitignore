@@ -70,3 +70,5 @@ lightning_logs/
 *.pth
 *.h5
 *.hdf5
+
+AGENT_MEMORY.md
